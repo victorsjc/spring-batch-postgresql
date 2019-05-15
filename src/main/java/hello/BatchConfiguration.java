@@ -22,8 +22,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.client.RestTemplate;
 
-import br.com.itau.integrador.dataprev.dto.Ocorrencia;
-import br.com.itau.sg2.ouvidoria.reader.OcorrenciaItemReader;
+import br.com.thinkidea.integrador.dataprev.dto.Ocorrencia;
+import br.com.thinkidea.ouvidoria.reader.OcorrenciaItemReader;
 
 @Configuration
 @EnableBatchProcessing

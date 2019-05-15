@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
-import br.com.itau.integrador.dataprev.dto.Ocorrencia;
+import br.com.thinkidea.integrador.dataprev.dto.Ocorrencia;
 
 @Component
 public class JobCompletionNotificationListener extends JobExecutionListenerSupport {
